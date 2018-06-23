@@ -6,3 +6,4 @@ Azure is a cloud computing service created by Microsoft for building, testing, d
 
 ## What is [Docker](https://www.docker.com/what-docker)?
 Docker is an open-source project for automating the deployment of applications as portable, self-sufficient containers that can run on the cloud or on-premises. Docker is also a company that promotes and evolves this technology. Docker works in collaboration with cloud, Linux, and Windows vendors, including Microsoft.
+![imagedocker](https://user-images.githubusercontent.com/32108894/41814405-63fb28fa-7721-11e8-8495-4c81ec728dbd.png)
