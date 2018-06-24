@@ -2,6 +2,8 @@
 El objetivo de esta guia es de proporcionar la informacion teorica y practica necesaria acerca del funcionamiento de las Funciones Azure con Docker para que quien lo lea tenga la posibilidad de aprender lo basico y luego si lo desea poder profundizar en conocimientos mas avanzados.
 
 ## What is [Azure](https://azure.microsoft.com/en-us/overview/what-is-azure/)?
+Cloud computing is the delivery of computing services—servers, storage, databases, networking, software, analytics, and more—over the Internet (“the cloud”). Companies offering these computing services are called cloud providers and typically charge for cloud computing services based on usage, similar to how you’re billed for water or electricity at home.
+
 Azure is a cloud computing service created by Microsoft for building, testing, deploying, and managing applications and services through a global network of Microsoft-managed data centers. It provides software as a service (SaaS), platform as a service (PaaS) and infrastructure as a service (IaaS) and supports many different programming languages, tools and frameworks, including both Microsoft-specific and third-party software and systems.
 
 ## What is [Docker](https://www.docker.com/what-docker)?
@@ -29,5 +31,5 @@ The big difference is that a virtual machine needs to contain the entire operati
 * therefore very scalable
 * and thus cost-efficient.
 
-# Second Part: Setup 
+# Second Part: Docker on Azure 
 
