@@ -7,4 +7,23 @@ Azure is a cloud computing service created by Microsoft for building, testing, d
 ## What is [Docker](https://www.docker.com/what-docker)?
 Docker is an open-source project for automating the deployment of applications as portable, self-sufficient containers that can run on the cloud or on-premises. Docker is also a company that promotes and evolves this technology. Docker works in collaboration with cloud, Linux, and Windows vendors, including Microsoft.
 ![imagedocker](https://user-images.githubusercontent.com/32108894/41814405-63fb28fa-7721-11e8-8495-4c81ec728dbd.png)
-#### Docker deploys containers at all layers of the hybrid cloud
+#### [Docker deploys containers at all layers of the hybrid cloud](https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/container-docker-introduction/docker-defined)
+
+## Docker Vs Virtual Machine
+The big difference is that a virtual machine needs to contain the entire operating system while a Docker container takes advantage of the operating system on which it runs, shares the kernel of the host operating system and even part of its libraries
+
+
+# Pros of a Docker Container
+• You can put anything in there
+• Stays locked
+• Efficient transport
+• No missing dependencies during deployments
+• You can run various versions of libraries
+• Reduce compatibily concerns
+• Self contained - everything you need is in …
+• an isolated environment
+• and therefore highly portable
+•it runs everywhere - also in the cloud
+•it is (relatively) small and lightweight
+•therefore very scalable
+• and thus cost-efficient.
