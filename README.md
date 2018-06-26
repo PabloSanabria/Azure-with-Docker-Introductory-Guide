@@ -69,6 +69,7 @@ First we can must create our first function, in this example we can se how to do
 
 Let’s start by taking a simple Azure Function function and creating a container for it. But before building the Docker Image, make sure to edit the project’s [function.json](https://github.com/Azure/azure-functions-host/wiki/function.json) and change authLevel to ‘anonymous’. for example:
 
+```xml
 {
     "disabled": false,
     "bindings": [
@@ -89,3 +90,4 @@ Let’s start by taking a simple Azure Function function and creating a containe
         }
     ]
 }
+```
