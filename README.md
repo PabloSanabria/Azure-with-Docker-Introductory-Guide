@@ -62,3 +62,30 @@ So, having the convenience of writing JUST the code we need, combined with the e
 * Deep integration with the underlying Azure infrastructure—get native infrastructure capabilities without additional configuration.
 * Secure and easy-to-manage Azure network and instance configuration.
 * Auto-provisioned and auto-configured load balancers.
+
+## Let's do it
+
+First we can must create our first function, in this example we can se how to do in [Visual Studio](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-your-first-function-visual-studio) but we can use the Azure portal, Azure CLI, Java and Maven and on Linux using the Azure CLI 
+
+Let’s start by taking a simple Azure Function function and creating a container for it. But before building the Docker Image, make sure to edit the project’s [function.json](https://github.com/Azure/azure-functions-host/wiki/function.json) and change authLevel to ‘anonymous’. for example:
+
+{
+    "disabled": false,
+    "bindings": [
+        {
+            "authLevel": "anonymous",
+            "name": "req",
+            "type": "httpTrigger",
+            "direction": "in",
+            "methods": [
+                "get",
+                "post"
+            ]
+        },
+        {
+            "name": "$return",
+            "type": "http",
+            "direction": "out"
+        }
+    ]
+}
