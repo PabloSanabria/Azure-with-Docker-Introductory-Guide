@@ -65,7 +65,7 @@ So, having the convenience of writing JUST the code we need, combined with the e
 
 ## Let's do it
 
-First we can must create our first function, in this example we can se how to do in [Visual Studio](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-your-first-function-visual-studio) but we can use the Azure portal, Azure CLI, Java and Maven and on Linux using the Azure CLI 
+At this [link](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-your-first-function-visual-studio) you could see how to create a first function in Visual Studio, you too can use the Azure portal, Azure CLI, Java and Maven and on Linux using the Azure CLI. 
 
 Let’s start by taking a simple Azure Function function and creating a container for it. But before building the Docker Image, make sure to edit the project’s [function.json](https://github.com/Azure/azure-functions-host/wiki/function.json) and change authLevel to ‘anonymous’. for example:
 
@@ -91,3 +91,24 @@ Let’s start by taking a simple Azure Function function and creating a containe
     ]
 }
 ```
+
+1. Install Docker on your computer, restart it, and make sure the service is running.
+
+2. Create a Dockerfile in your project folder and add the text below:
+
+FROM microsoft/azure-functions-runtime:v2.0.0-beta1
+ENV AzureWebJobsScriptRoot=/home/site/wwwroot 
+COPY . /home/site/wwwroot
+3. Now, open a command prompt and navigate to your project folder.
+
+4. Use the following commands to build and run your Docker image:
+
+docker build -t MY_FUNCTION .
+And, to deploy your function:
+
+docker run -p 8080:80 MY_FUNCTION
+5. Now, if you open a browser and go to http://localhost:8080 you should see your function’s result.
+
+6. Done! You are running your Azure function from a Docker container. And just as it worked in your development environment, it will run in the Cloud.
+
+You could also test your function by going to http:localhost:8080/api/MY_FUNCTION?name=MY_NAME and you should see your Azure Function working just like it should.
