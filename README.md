@@ -9,27 +9,30 @@ Azure is a cloud computing service created by Microsoft for building, testing, d
 You can create your Azure free account o buy it [here](https://azure.microsoft.com/en-us/free).
 
 ## What is [Docker](https://www.docker.com/what-docker)?
-Docker is an open-source project for automating the deployment of applications as portable, self-sufficient containers that can run on the cloud or on-premises. Docker is also a company that promotes and evolves this technology. Docker works in collaboration with cloud, Linux, and Windows vendors, including Microsoft.
+Docker is an open-source project for automating the deployment of applications as portable, self-sufficient containers that can run on the cloud or on-premises. Docker is also a company that promotes and evolves this technology. Docker works in collaboration with cloud, Linux, and Windows vendors, including Microsoft. The Docker image containers are comprised by: the application itself and its dependencies, and each of these containers use shared operating systems.
 En el caso de los desarrolladores, el uso de Docker hace que puedan centrarse en desarrollar su código sin preocuparse de si dicho código funcionará en la máquina en la que se ejecutará.
+
+**Why it matters:**
+Since containers require far fewer resources (they all run on the same OS instance), they start fast and are easy to deploy. Low resource usage allows higher density. You can run more services on the same hardware unit and reduce costs. The main goal of a container image is that it makes the environment (dependencies) the same across different deployments. This means that you can debug it on your machine and then deploy it to another machine with the same environment guaranteed.
 
 ![imagedocker](https://user-images.githubusercontent.com/32108894/41814405-63fb28fa-7721-11e8-8495-4c81ec728dbd.png)
 
 #### [Docker deploys containers at all layers of the hybrid cloud](https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/container-docker-introduction/docker-defined)
 
-## Main components of Docker
+### Main components of Docker
 
-### Image: 
-          Read-only template used to create containers. To give clarity, we can say that an image is the necessary environment for a certain application to work.
+**IMAGE**
+Read-only template used to create containers. To give clarity, we can say that an image is the necessary environment for a certain application to work.
 
-### Container: 
-            These are isolated processes initiated from an image.
+**CONTAINER**
+These are isolated processes initiated from an image.
 
-## Docker Vs Virtual Machine
+### Docker Vs Virtual Machine
 The big difference is that a virtual machine needs to contain the entire operating system while a Docker container takes advantage of the operating system on which it runs, shares the kernel of the host operating system and even part of its libraries
 ![imagen-docker-00](https://user-images.githubusercontent.com/32108894/41824616-81b58e26-77e9-11e8-8ac2-ce696cd83e54.png)
 
 
-# Pros of a Docker Container
+### Pros of a Docker Container
 * You can put anything in there
 * Stays locked
 * Efficient transport ,  highly portable
@@ -50,7 +53,11 @@ To instal Docker on Windows follow steps in that link:  [![dockerstore](https://
 Azure functions is used to run a small portion of code in the cloud without worrying about infrastructure and server maintenance
 it allows deploy a simple HTTP Trigger on a Docker Container, which will allow us to have full control of the runtime environment and get total abstraction from the OS.
 
-### Azure integration benefits
+***Why it matters:***
+You can write the code you need for the problem at hand (using your language of choice, such as C#, F#, Node.js, Java, or PHP), without worrying about a whole application or the infrastructure to run it.
+So, having the convenience of writing JUST the code we need, combined with the ease of deployment of Docker, we can take our app development and supporting skills to a new level.
+
+## Azure integration benefits
 * Familiar Azure admin user experience.
 * Deep integration with the underlying Azure infrastructure—get native infrastructure capabilities without additional configuration.
 * Secure and easy-to-manage Azure network and instance configuration.
