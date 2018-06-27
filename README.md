@@ -89,18 +89,18 @@ C:\Users\glenga\source\repos\FunctionApp
 4.Use the following commands to build and run your Docker image:
 
 ```xml
-docker build -t MY_FUNCTION .
+docker build -t MY_FUNCTION 
 ```
 And, to deploy your function:
 
 ```xml
 docker run -p 8080:80 MY_FUNCTION
 ```
-5.Now, if you open a browser and go to _"http://localhost:8080"_ you should see your function’s result.
+5.Now, if you open a browser and go to _"http://localhost:8080"_  you should see your function’s result.
 
 6.Done! You are running your Azure function from a Docker container. And just as it worked in your development environment, it will run in the Cloud.
 
-You could also test your function by going to _"http:localhost:8080/api/MY_FUNCTION?name=MY_NAME"_ and you should see your Azure Function working just like it should.
+You could also test your function by going to _"http:localhost:8080/api/MY_FUNCTION?name=MY_NAME"_  and you should see your Azure Function working just like it should.
 
 # Final Conclusion
 Running Azure Functions with Docker is very important for developers because it can be done in any part, **also in the cloud**, in an agile and efficient way with a efficient transport and highly portable. Allowing you to focus on developing your code without worrying about whether that code will work on the machine it will be executed on. As we saw you can run an Azure Functions whith Docker in 3 simple steps. Docker can provide cost saving advantages. Containers are a solution to implementation problems as they eliminate friction caused by a lack of dependencies in production environments. By eliminating those problems, it significantly improves development and testing and production operations.
