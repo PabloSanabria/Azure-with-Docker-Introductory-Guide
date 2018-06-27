@@ -20,10 +20,10 @@ Since containers require far fewer resources (they all run on the same OS instan
 
 ### Main components of Docker
 
-**IMAGE: **
+**IMAGE:**
 Read-only template used to create containers. To give clarity, we can say that an image is the necessary environment for a certain application to work.
 
-**CONTAINER: **
+**CONTAINER:**
 These are isolated processes initiated from an image.
 
 ### Docker Vs Virtual Machine
@@ -71,18 +71,18 @@ Let’s start by taking a simple Azure Function function and creating a containe
 }
 ```
 
-1. Install Docker on your computer, restart it, and make sure the service is running.
+1.Install Docker on your computer, restart it, and make sure the service is running.
 
-2. Create a Dockerfile in your project folder and add the text below:
+2.Create a Dockerfile in your project folder and add the text below:
 
 ```xml
 FROM microsoft/azure-functions-runtime:v2.0.0-beta1
 ENV AzureWebJobsScriptRoot=/home/site/wwwroot 
 COPY . /home/site/wwwroot
 ```
-3. Now, open a command prompt and navigate to your project folder.
+3.Now, open a command prompt and navigate to your project folder.
 
-4. Use the following commands to build and run your Docker image:
+4.Use the following commands to build and run your Docker image:
 
 ```xml
 docker build -t MY_FUNCTION .
@@ -92,9 +92,9 @@ And, to deploy your function:
 ```xml
 docker run -p 8080:80 MY_FUNCTION
 ```
-5. Now, if you open a browser and go to http://localhost:8080 you should see your function’s result.
+5.Now, if you open a browser and go to http://localhost:8080 you should see your function’s result.
 
-6. Done! You are running your Azure function from a Docker container. And just as it worked in your development environment, it will run in the Cloud.
+6.Done! You are running your Azure function from a Docker container. And just as it worked in your development environment, it will run in the Cloud.
 
 You could also test your function by going to http:localhost:8080/api/MY_FUNCTION?name=MY_NAME and you should see your Azure Function working just like it should.
 
