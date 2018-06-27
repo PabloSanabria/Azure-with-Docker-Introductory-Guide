@@ -103,3 +103,4 @@ Running Azure Functions with Docker is very important for developers because it 
 For all this, Docker container can become the standard implementation unit for any server-based application or service.
 
 [Bibliography](Azure-with-Docker-Introductory-Guide/Bibliography.txt)
+[Bibliography2](https://github.com/PabloSanabria/Azure-with-Docker-Introductory-Guide/blob/master/Bibliography.txt)
