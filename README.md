@@ -30,7 +30,7 @@ These are isolated processes initiated from an image.
 The big difference is that a virtual machine needs to contain the entire operating system while a Docker container takes advantage of the operating system on which it runs, shares the kernel of the host operating system and even part of its libraries
 ![imagen-docker-00](https://user-images.githubusercontent.com/32108894/41824616-81b58e26-77e9-11e8-8ac2-ce696cd83e54.png)
 
-To instal Docker on Windows follow steps in that link:  [![dockerstore](https://user-images.githubusercontent.com/32108894/41879833-a8aa4e40-78b1-11e8-83b9-1be3f78b1d3e.PNG) ](https://store.docker.com/editions/community/docker-ce-desktop-windows)
+To instal Docker on Windows click the image and follow steps:  [![dockerstore](https://user-images.githubusercontent.com/32108894/41879833-a8aa4e40-78b1-11e8-83b9-1be3f78b1d3e.PNG) ](https://store.docker.com/editions/community/docker-ce-desktop-windows)
 
 # Second Part: Azure Functions on a Docker Container
 
@@ -71,7 +71,7 @@ Let’s start by taking a simple Azure Function function and creating a containe
 }
 ```
 
-1.Install Docker on your computer, restart it, and make sure the service is running.
+1.Install Docker on your computer , as we have learned previously, restart it, and make sure the service is running.
 
 2.Create a Dockerfile in your project folder and add the text below:
 
@@ -80,7 +80,11 @@ FROM microsoft/azure-functions-runtime:v2.0.0-beta1
 ENV AzureWebJobsScriptRoot=/home/site/wwwroot 
 COPY . /home/site/wwwroot
 ```
-3.Now, open a command prompt and navigate to your project folder.
+3.Now, open a command prompt and navigate to your project folder. Following the example of the previous link
+
+```xml
+C:\Users\glenga\source\repos\FunctionApp
+```
 
 4.Use the following commands to build and run your Docker image:
 
