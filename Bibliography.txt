@@ -1,0 +1,39 @@
+Material used for this project!
+
+What is cloud computing?
+azure.microsoft.com
+https://azure.microsoft.com/en-us/overview/what-is-cloud-computing/
+
+Qué es Docker! sencillo...
+javiergarzas.com
+http://www.javiergarzas.com/2015/07/que-es-docker-sencillo.html
+
+Microsoft Azure
+en.wikipedia.org
+https://en.wikipedia.org/wiki/Microsoft_Azure
+
+Docker for dummies
+adictosaltrabajo.com
+https://www.adictosaltrabajo.com/tutoriales/docker-for-dummies/
+
+Using Docker containers for Azure Functions [C# .NET]
+medium.com
+https://medium.com/@plopez_313/using-docker-containers-for-azure-functions-c-net-b0faaf8cef5e
+
+Azure Functions on a Docker Container [Node.js]
+medium.com
+https://medium.com/@juanpdantur/azure-functions-on-a-docker-container-7e76872c40cf
+
+Funciones sobre demanda, eso es Azure Functions
+blogs.itpro.es
+https://blogs.itpro.es/eduardocloud/2017/08/21/funciones-sobre-demanda-eso-es-azure-functions/
+
+
+¿Haz visto a la Ballenita? – Docker en Azure
+blogs.itpro.es
+https://blogs.itpro.es/eduardocloud/2017/05/29/haz-visto-a-la-ballenita-docker-en-azure/
+
+
+http://www.mug-it.org.ar/multimedios/otros/17391.pdf
+
+
