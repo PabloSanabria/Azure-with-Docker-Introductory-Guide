@@ -6,7 +6,7 @@ Cloud computing is the delivery of computing services—servers, storage, databa
 
 Azure is a cloud computing service created by Microsoft for building, testing, deploying, and managing applications and services through a global network of Microsoft-managed data centers. It provides software as a service (SaaS), platform as a service (PaaS) and infrastructure as a service (IaaS) and supports many different programming languages, tools and frameworks, including both Microsoft-specific and third-party software and systems.
 
-You can create your Azure free account or buy your license [here](https://azure.microsoft.com/en-us/free).
+You can create your Azure free account or buy [here](https://azure.microsoft.com/en-us/free).
 
 ## What is [Docker](https://www.docker.com/what-docker)?
 Docker is an open-source project for automating the deployment of applications as portable, self-sufficient containers that can run on the cloud or on-premises. Docker is also a company that promotes and evolves this technology. Docker works in collaboration with cloud, Linux, and Windows vendors, including Microsoft. The Docker image containers are comprised by: the application itself and its dependencies, and each of these containers use shared operating systems.
