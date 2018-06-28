@@ -4,7 +4,7 @@ What is cloud computing?
 azure.microsoft.com
 https://azure.microsoft.com/en-us/overview/what-is-cloud-computing/
 
-Qué es Docker! sencillo...
+QuÃ© es Docker! sencillo...
 javiergarzas.com
 http://www.javiergarzas.com/2015/07/que-es-docker-sencillo.html
 
@@ -29,11 +29,13 @@ blogs.itpro.es
 https://blogs.itpro.es/eduardocloud/2017/08/21/funciones-sobre-demanda-eso-es-azure-functions/
 
 
-¿Haz visto a la Ballenita? – Docker en Azure
+Â¿Haz visto a la Ballenita? â€“ Docker en Azure
 blogs.itpro.es
 https://blogs.itpro.es/eduardocloud/2017/05/29/haz-visto-a-la-ballenita-docker-en-azure/
 
-
 http://www.mug-it.org.ar/multimedios/otros/17391.pdf
 
+Relative links in markup files
+https://blog.github.com/2013-01-31-relative-links-in-markup-files/
 
+https://translate.google.com.ar
