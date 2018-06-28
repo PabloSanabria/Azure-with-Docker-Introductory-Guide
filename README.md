@@ -30,7 +30,7 @@ These are isolated processes initiated from an image.
 The big difference is that a virtual machine needs to contain the entire operating system while a Docker container takes advantage of the operating system on which it runs, shares the kernel of the host operating system and even part of its libraries
 ![imagen-docker-00](https://user-images.githubusercontent.com/32108894/41824616-81b58e26-77e9-11e8-8ac2-ce696cd83e54.png)
 
-To instal Docker on Windows click the image and follow these steps:  [![dockerstore](https://user-images.githubusercontent.com/32108894/41879833-a8aa4e40-78b1-11e8-83b9-1be3f78b1d3e.PNG) ](https://store.docker.com/editions/community/docker-ce-desktop-windows)
+To instal Docker on Windows click the image and follow these steps:  [![dockerstore](https://user-images.githubusercontent.com/32108894/42062967-eec3f664-7b05-11e8-8be6-e8cade48aeee.PNG) ](https://store.docker.com/editions/community/docker-ce-desktop-windows)
 
 # Second Part: Azure Functions on a Docker Container
 
