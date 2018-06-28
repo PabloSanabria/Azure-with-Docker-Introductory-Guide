@@ -73,7 +73,7 @@ Let’s start by taking a simple Azure Function and creating a container for it.
 
 1.Install Docker on your computer , as we have learned previously, restart it, and [make sure the service is running](https://docs.docker.com/get-started/).
     
-2.Open a command prompt and create a **Dockerfile** in your project folder and add the text below:
+2.Open a command prompt create a **Dockerfile** in your project folder and add the text below:
 
 ```xml
 FROM microsoft/azure-functions-runtime:v2.0.0-beta1
