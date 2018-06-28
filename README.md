@@ -73,14 +73,14 @@ Let’s start by taking a simple Azure Function and creating a container for it.
 
 1.Install Docker on your computer , as we have learned previously, restart it, and [make sure the service is running](https://docs.docker.com/get-started/).
     
-2.Create a **Dockerfile** in your project folder and add the text below:
+2.Open a command prompt and create a **Dockerfile** in your project folder and add the text below:
 
 ```xml
 FROM microsoft/azure-functions-runtime:v2.0.0-beta1
 ENV AzureWebJobsScriptRoot=/home/site/wwwroot 
 COPY . /home/site/wwwroot
 ```
-3.Now, open a command prompt and navigate to your project folder. Following the example of the previous link
+3.Now, navigate to your project folder. Following the example of the previous link
 
 ```xml
 C:\Users\glenga\source\repos\FunctionApp
