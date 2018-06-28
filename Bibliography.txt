@@ -28,6 +28,9 @@ Funciones sobre demanda, eso es Azure Functions
 blogs.itpro.es
 https://blogs.itpro.es/eduardocloud/2017/08/21/funciones-sobre-demanda-eso-es-azure-functions/
 
+Uso de la Wiki de Github.
+adictosaltrabajo.com
+https://www.adictosaltrabajo.com/tutoriales/github-wiki/
 
 ¿Haz visto a la Ballenita? – Docker en Azure
 blogs.itpro.es
